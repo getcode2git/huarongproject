@@ -1,0 +1,125 @@
+.arrow-outer {
+}
+.arrow {
+	position: relative;
+}
+.arrow:after, .arrow:before {
+	border: 8px solid transparent;
+	border-left: 8px solid #ffffff;
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 0;
+	right: -20px;
+	content: ' ';
+}
+
+.arrow:before {
+	border-left-color: rgb(192,192,192);
+	right: -23px;
+}
+.labelStyle {
+	width: 160px;
+	padding-top: 6px;
+}
+.showSelUser {
+	float: right;
+	margin-right: 15px;
+}
+.sm_div {
+	height: 1px;
+	background: #EEEEEE;
+	width: 100%;
+}
+.msg-info {
+	position: relative;
+}
+.msg-info .um-badge {
+	position: absolute;
+	right: -10px;
+	font-size: 12px;
+}
+.msg-header {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background: blue;
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+}
+.um-listview-row:active {
+	background-color: #eee;
+}
+.btn {
+	background: #175499;
+	color: #FFFFFF;
+	font-size: 18px;
+	border: none;
+}
+.div_top {
+	height: 35px;
+	width: 100%;
+	background: #f7f7f7;
+	color: #666666;
+	line-height: 35px;
+}
+
+.bottom_div {
+	background: #f7f7f7;
+	height: 60px;
+	line-height: 60px;
+}
+
+.myinput {
+	margin-left: 15px;
+}
+.text_status {
+	color: #666666;
+	font-size: 13px;
+	margin-left: 5px;
+}
+.text1 {
+	font-size: 12px;
+}
+.bottom_div ul{
+	display:flex;
+}
+
+.bottom_div ul li:first-child{
+	float: left; width: 50%
+}
+
+.bottom_div ul li:last-child{
+	float: right;width: 50%
+}
+.weizhi{
+	margin-left: 15px;
+}
+
+.borderli{
+	border-bottom:1px solid #DDDDDD;
+}
+
+.back{
+	margin-left:15px;
+	margin-top:10px;
+	width:28px;
+	height:22px;
+	line-height:44px;
+	position:fixed;
+	float: left;
+}
+.orderbox{
+	border-radius: 5px;
+	-webkit-appearance: none;
+	border:1px solid #DBDBDB ;
+	width: 2rem;
+	height: 2rem;
+	padding-left: 0.7rem;
+	margin-right: 1rem;
+	outline:none;
+}
+
+
+

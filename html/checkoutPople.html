@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/font-icons.css">
+        <link rel="stylesheet" href="../css/myCss.css">
+        <link rel="stylesheet" href="../css/check.css">
+		<script src="../js/summer.js" ></script>
+		<script src="../js/jquery.min.js" ></script>
+		<script src="../js/Frameworks/iuapmobile.frameworks.core.js" ></script>
+		<script src="../js/common.js" ></script>
+		<script src="../js/layer_mobile/layer.js"></script>
+		<script src="../js/cvi_busy_lib.js" ></script>
+		<script src="../js/appSettings.js"></script>
+		<script src="../js/jquery.mobileAjax.js"></script>
+		<script src="../js/checkP.js" ></script>
+	</head>
+	<body>
+		<div class="um-win" id="index">
+			<div class="um-header" style="width:100%;position: fixed;">
+			<div id="backToDetail" class="back" id="backToDetail" style=" background: url(../img/fanhui_normal.png);background-repeat:no-repeat;background-position:center;background-size:28px 22px"></div>
+			<!--<a id="backToDetail" class="um-back"></a>-->
+				<h3 >办理人</h3>
+			</div>
+
+			
+			<div class="um-content" id="singleDiv" style="width: 100%; background: white;position: absolute;top:44px;">
+			  <div class="um-check-group"  style="margin: 0px">
+	              <ul class="um-list" id="peopleList" style="margin-bottom: 6.5rem;padding-left: 0.5rem;border:none;">
+	              </ul>
+              </div>
+			</div>
+
+			<div class="bottom_div" style="width:100%; position: fixed; bottom: 3rem">
+				<ul>
+					<li>
+						<div style="padding-left: 25%">
+							<label class="um-check-inline" style="display:flex;">
+								<input name="um-checkbox-inline" type="checkbox" id="email" checked>
+								<span class="um-icon-checkbox um-css3-vc"></span> <span class="um-black ml5 text_status">邮件提醒</span> </label>
+						</div>
+					</li>
+					<li>
+						<div style="padding-left: 25%">
+							<label class="um-check-inline">
+								<input name="um-checkbox-inline" type="checkbox" id="mesg"  checked>
+								<span class="um-icon-checkbox um-css3-vc"></span> <span class="um-black ml5 text_status">即时消息提醒</span> </label>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="btns" style="height: 3rem; width: 100%; position: fixed; bottom: 0">
+				<button id="smt" class="btn" style="width: 100%;">
+					确定
+				</button>
+			</div>
+		</div>
+	</body>
+</html>

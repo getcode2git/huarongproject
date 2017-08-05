@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="./css/iuapmobile.um.css">
+		<link rel="stylesheet" href="./css/font-icons.css">
+		<link rel="stylesheet" type="text/css" href="./css/iuapmobile.um.listview.css">
+		<link rel="stylesheet" href="./css/approvaList.css">
+		<script src="./js/summer.js"></script>
+		<script src="./js/jquery.min.js"></script>
+		<script src="./js/Frameworks/iuapmobile.frameworks.ui.js"></script>
+		<script src="./js/Frameworks/iuapmobile.frameworks.core.js"></script>
+		<script src="./js/iscroll.js"></script>
+		<script src="./js/doT.min.js"></script>
+		<script src="./js/iscroll/pullToRefresh.js"></script>
+		<script src="./js/common.js"></script>
+		<script src="./js/knockout.js"></script>
+		<script src="./js/Frameworks/iuapmobile.frameworks.listview.js"></script>
+		<script src="./js/cvi_busy_lib.js"></script>
+		<script src="./js/layer_mobile/layer.js"></script>
+		<script src="./js/appSettings.js"></script>
+		<script src="./js/jquery.mobileAjax.js"></script>
+		<script src="./js/approvalList.js"></script>
+	</head>
+	<body>
+		<div id="win" class="um-win" style="background-color: #F7F7F7;">
+			<div id="header" class="um-header" align="center">
+				<div class="back" id="um-back" onclick="functionback()" style=" background: url(./img/close_normal3.png);background-repeat:no-repeat;background-position:center;background-size:32px 22px">
+					<!--<div id="lineS"></div>-->
+				</div>
+				<h3 style="color:#FFFFFF;">审批列表</h3>
+				<ul class="um-tabbar">
+					<li id="todoList">
+						<a>待办</a>
+					</li>
+					<li id="doneHistoryList">
+						<a>已办</a>
+					</li>
+				</ul>
+			</div>
+			<div class="um-content" style="display: none;" onclick="refreshPage()">				
+           </div>
+       
+           <div class="um-listview-wrap" id="listview"></div>	
+           		
+           </div>
+				
+			    <div>
+			<script id="ds" type="text/x-dot-template">
+				<ul id="aaa" class="um-list um-no-active">
+				{{ for (var i=0;i<it.length;i++ ){ }}
+				<li class="um-listview-row" id="lists">
+				<div id="line"></div>
+				<div id="listid" data-bind="text:TaskName">{{=it[i].TaskName}}</div>
+				<div id="listtitle" data-bind="text:Title">{{=it[i].Title}}</div>
+				<div id="out">
+				<div id="listhead" data-bind="text:StepName">{{=it[i].StepName}}</div>
+				</div>
+				<div id="listtime" data-bind="text:ArriveTime">{{=it[i].ArriveTime}}</div>
+				</li>
+				{{ } }}
+				</ul>
+			</script>
+		</div>
+	</body>
+</html>
+

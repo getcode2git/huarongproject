@@ -1,0 +1,460 @@
+{
+  "ModelId-437":  {
+    "TaskId-4":{
+      "CopySend": {
+        "ch": "抄送",
+        "type": "input"
+      },
+      "AuthorName": {
+        "ch": "拟稿人",
+        "type": "null"
+      },
+      "Ct_ManagerID": {
+        "ch": "处室负责人ID",
+        "type": "none"
+      },
+      "Ct_ManagerName": {
+        "ch": "处室负责人",
+        "type": "null"
+      },
+      "DocCharName": {
+        "ch": "公文代字",
+        "type": "radio"
+      },
+      "Emergency": {
+        "ch": "缓急",
+        "type": "radio"
+      },
+      "Subject": {
+        "ch": "主题词",
+        "type": "input"
+      },
+      "Ct_LeaderID": {
+        "ch": "部门领导ID",
+        "type": "none"
+      },
+      "Ct_LeaderName": {
+        "ch": "部门领导",
+        "type": "null"
+      },
+      "DocNum": {
+        "ch": "公文号",
+        "type": "null"
+      },
+      "Ct_SignDeptID": {
+        "ch": "会签部门文件管理员ID",
+        "type": "none"
+      },
+      "SignInfo":{
+        "ch":"会签",
+        "type":"null"
+      },
+      "AuthorTel": {
+        "ch": "电话",
+        "type": "null"
+      },
+      "Ct_CSign": {
+        "ch": "是否会签",
+        "type": "null"
+      },
+      "Ct_SignDeptIDReal":{
+        "ch":"会签部门ID(Real)",
+        "type":"none"
+      },
+      "DocChar": {
+        "ch": "公文代字ID",
+        "type": "none"
+      },
+      "LeaderSignInfo":{
+        "ch":"签发",
+        "type":"null"
+      },
+      "Ct_SignDeptName":{
+        "ch":"会签部门文件管理员",
+        "type":"null"
+      },
+      "Ct_CAddSign":{
+        "ch":"是否继续会签",
+        "type":"radio"
+      },
+      "DocYear": {
+        "ch": "公文年号",
+        "type": "input"
+      },
+      "Encrypt": {
+        "ch": "密级",
+        "type": "radio"
+      },
+      "LeaderSend": {
+        "ch": "抄报",
+        "type": "input"
+      },
+      "CheckInfo":{
+        "ch":"核稿信息",
+        "type":"null"
+      },
+      "InternalSend": {
+        "ch": "分公司内发送",
+        "type": "input"
+      },
+      "ManagerCheckTime": {
+        "ch": "处室负责人审核时间",
+        "type": "radio"
+      },
+      "DocTitle": {
+        "ch": "标题",
+        "type": "null"
+      },
+      "MainSend": {
+        "ch": "主送",
+        "type": "input"
+      },
+      "DepartmentName": {
+        "ch": "主办单位",
+        "type": "null"
+      }
+    },
+    "TaskId-6":{
+      "CopySend": {
+        "ch": "抄送",
+        "type": "null"
+      },
+      "AuthorName": {
+        "ch": "拟稿人",
+        "type": "null"
+      },
+      "Ct_ManagerID": {
+        "ch": "处室负责人ID",
+        "type": "none"
+      },
+      "Ct_ManagerName": {
+        "ch": "处室负责人",
+        "type": "null"
+      },
+      "DocCharName": {
+        "ch": "公文代字",
+        "type": "null"
+      },
+      "Emergency": {
+        "ch": "缓急",
+        "type": "null"
+      },
+      "Subject": {
+        "ch": "主题词",
+        "type": "null"
+      },
+      "Ct_LeaderID": {
+        "ch": "部门领导ID",
+        "type": "none"
+      },
+      "Ct_LeaderName": {
+        "ch": "部门领导",
+        "type": "null"
+      },
+      "DocNum": {
+        "ch": "公文号",
+        "type": "null"
+      },
+      "Ct_SignDeptID": {
+        "ch": "会签部门文件管理员ID",
+        "type": "none"
+      },
+      "SignInfo":{
+        "ch":"会签",
+        "type":"null"
+      },
+      "AuthorTel": {
+        "ch": "电话",
+        "type": "null"
+      },
+      "Ct_CSign": {
+        "ch": "是否会签",
+        "type": "null"
+      },
+      "Ct_SignDeptIDReal":{
+        "ch":"会签部门ID(Real)",
+        "type":"none"
+      },
+      "DocChar": {
+        "ch": "公文代字ID",
+        "type": "none"
+      },
+      "LeaderSignInfo":{
+        "ch":"签发",
+        "type":"null"
+      },
+      "Ct_SignDeptName":{
+        "ch":"会签部门文件管理员",
+        "type":"null"
+      },
+      "Ct_CAddSign":{
+        "ch":"是否继续会签",
+        "type":"null"
+      },
+      "DocYear": {
+        "ch": "公文年号",
+        "type": "null"
+      },
+      "Encrypt": {
+        "ch": "密级",
+        "type": "null"
+      },
+      "LeaderSend": {
+        "ch": "抄报",
+        "type": "null"
+      },
+      "CheckInfo":{
+        "ch":"核稿信息",
+        "type":"null"
+      },
+      "InternalSend": {
+        "ch": "分公司内发送",
+        "type": "null"
+      },
+      "ManagerCheckTime": {
+        "ch": "处室负责人审核时间",
+        "type": "null"
+      },
+      "DocTitle": {
+        "ch": "标题",
+        "type": "null"
+      },
+      "MainSend": {
+        "ch": "主送",
+        "type": "null"
+      },
+      "DepartmentName": {
+        "ch": "主办单位",
+        "type": "null"
+      }
+    },
+    "TaskId-7":{
+      "CopySend": {
+        "ch": "抄送",
+        "type": "input"
+      },
+      "AuthorName": {
+        "ch": "拟稿人",
+        "type": "null"
+      },
+      "Ct_ManagerID": {
+        "ch": "处室负责人ID",
+        "type": "none"
+      },
+      "Ct_ManagerName": {
+        "ch": "处室负责人",
+        "type": "null"
+      },
+      "DocCharName": {
+        "ch": "公文代字",
+        "type": "radio"
+      },
+      "Emergency": {
+        "ch": "缓急",
+        "type": "radio"
+      },
+      "Subject": {
+        "ch": "主题词",
+        "type": "input"
+      },
+      "Ct_LeaderID": {
+        "ch": "部门领导ID",
+        "type": "none"
+      },
+      "Ct_LeaderName": {
+        "ch": "部门领导",
+        "type": "null"
+      },
+      "DocNum": {
+        "ch": "公文号",
+        "type": "null"
+      },
+      "Ct_SignDeptID": {
+        "ch": "会签部门文件管理员ID",
+        "type": "none"
+      },
+      "SignInfo":{
+        "ch":"会签",
+        "type":"null"
+      },
+      "AuthorTel": {
+        "ch": "电话",
+        "type": "null"
+      },
+      "Ct_CSign": {
+        "ch": "是否会签",
+        "type": "null"
+      },
+      "Ct_SignDeptIDReal":{
+        "ch":"会签部门ID(Real)",
+        "type":"none"
+      },
+      "DocChar": {
+        "ch": "公文代字ID",
+        "type": "none"
+      },
+      "LeaderSignInfo":{
+        "ch":"签发",
+        "type":"null"
+      },
+      "Ct_SignDeptName":{
+        "ch":"会签部门",
+        "type":"null"
+      },
+      "Ct_CAddSign":{
+        "ch":"是否继续会签",
+        "type":"null"
+      },
+      "DocYear": {
+        "ch": "公文年号",
+        "type": "input"
+      },
+      "Encrypt": {
+        "ch": "密级",
+        "type": "radio"
+      },
+      "LeaderSend": {
+        "ch": "抄报",
+        "type": "input"
+      },
+      "CheckInfo":{
+        "ch":"核稿信息",
+        "type":"null"
+      },
+      "InternalSend": {
+        "ch": "分公司内发送",
+        "type": "input"
+      },
+      "ManagerCheckTime": {
+        "ch": "处室负责人审核时间",
+        "type": "null"
+      },
+      "DocTitle": {
+        "ch": "标题",
+        "type": "null"
+      },
+      "MainSend": {
+        "ch": "主送",
+        "type": "input"
+      },
+      "DepartmentName": {
+        "ch": "主办单位",
+        "type": "null"
+      }
+    },
+    "TaskId-9": {
+      "CopySend": {
+        "ch": "抄送",
+        "type": "null"
+      },
+      "AuthorName": {
+        "ch": "拟稿人",
+        "type": "null"
+      },
+      "Ct_ManagerID": {
+        "ch": "处室负责人ID",
+        "type": "none"
+      },
+      "Ct_ManagerName": {
+        "ch": "处室负责人",
+        "type": "null"
+      },
+      "DocCharName": {
+        "ch": "公文代字",
+        "type": "null"
+      },
+      "Emergency": {
+        "ch": "缓急",
+        "type": "null"
+      },
+      "Subject": {
+        "ch": "主题词",
+        "type": "null"
+      },
+      "Ct_LeaderID": {
+        "ch": "部门领导ID",
+        "type": "none"
+      },
+      "Ct_LeaderName": {
+        "ch": "部门领导",
+        "type": "null"
+      },
+      "DocNum": {
+        "ch": "公文号",
+        "type": "null"
+      },
+      "Ct_SignDeptID": {
+        "ch": "会签部门文件管理员ID",
+        "type": "none"
+      },
+      "SignInfo":{
+        "ch":"会签",
+        "type":"null"
+      },
+      "AuthorTel": {
+        "ch": "电话",
+        "type": "null"
+      },
+      "Ct_CSign": {
+        "ch": "是否会签",
+        "type": "null"
+      },
+      "Ct_SignDeptIDReal":{
+        "ch":"会签部门ID(Real)",
+        "type":"none"
+      },
+      "DocChar": {
+        "ch": "公文代字ID",
+        "type": "none"
+      },
+      "LeaderSignInfo":{
+        "ch":"签发",
+        "type":"null"
+      },
+      "Ct_SignDeptName":{
+        "ch":"会签部门",
+        "type":"null"
+      },
+      "Ct_CAddSign":{
+        "ch":"是否继续会签",
+        "type":"null"
+      },
+      "DocYear": {
+        "ch": "公文年号",
+        "type": "null"
+      },
+      "Encrypt": {
+        "ch": "密级",
+        "type": "null"
+      },
+      "LeaderSend": {
+        "ch": "抄报",
+        "type": "null"
+      },
+      "CheckInfo":{
+        "ch":"核稿信息",
+        "type":"null"
+      },
+      "InternalSend": {
+        "ch": "分公司内发送",
+        "type": "null"
+      },
+      "ManagerCheckTime": {
+        "ch": "处室负责人审核时间",
+        "type": "null"
+      },
+      "DocTitle": {
+        "ch": "标题",
+        "type": "null"
+      },
+      "MainSend": {
+        "ch": "主送",
+        "type": "null"
+      },
+      "DepartmentName": {
+        "ch": "主办单位",
+        "type": "null"
+      }
+    }
+  }
+}

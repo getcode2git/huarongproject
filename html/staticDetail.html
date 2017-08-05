@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0 minimum-scale=1, maximum-scale=1">
+	<meta charset="UTF-8">
+	<title>详情</title>
+	<link rel="stylesheet" type="text/css" href="../css/newDetail.css">
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/summer.js" ></script>
+	<script type="text/javascript" src="../js/common.js"></script>
+	<script type="text/javascript" src="../js/rem.js"></script>
+	<script type="text/javascript" src="../js/doT.min.js"></script>
+	<script src="../js/Frameworks/iuapmobile.frameworks.core.js" ></script>
+	<script type="text/javascript" src="../js/layer_mobile/layer.js" ></script>
+	<script type="text/javascript">
+		$().ready(function(){
+			$("#paper").on("click",paper);
+			$("#files").on("click",files);
+			$("#details").on("click",details);
+
+			var first = $("#second li:first-child");
+			first.addClass("hit");
+			$("#second li").on("click",function(){
+				$(this).css({"background-color": "#175499",color: "#FFF"});
+				$(this).siblings().css({"background-color": "#FFF",color: "#337AB7"});
+			});
+
+			$(".paper").css("display","block");
+			$(".attachments").css("display","none");
+			$(".details").css("display","none");
+		});
+		function paper(argument) {
+			$(".paper").css("display","block");
+			$(".attachments").css("display","none");
+			$(".details").css("display","none");
+		}
+
+		function files(){
+			$(".paper").css("display","none");
+			$(".attachments").css("display","block");
+			$(".details").css("display","none");
+		}
+
+		function details(){
+			$(".paper").css("display","none");
+			$(".attachments").css("display","none");
+			$(".details").css("display","block");
+		}
+	</script>
+</head>
+<body>
+	<div class="top">
+		<div class="title_area">
+			<a id="backArr"><img src="../img/fanhui_normal.png" width="28px" height="22px"></a>
+			<h3 class="title" id="title">签报</h3>
+		</div>
+		<div class="second">
+			<ul id="second">
+				<li id="paper">稿纸</li>
+				<li id="files">附件</li>
+				<li id="details">流转明细</li>
+			</ul>
+		</div>
+	</div>
+	
+
+	<!-- 稿纸页签 -->
+	<div class="paper">
+		<div class="fname" id="fname">
+			关于印发《xxx会计审核办法文件》(A版)的重要通知
+		</div>
+
+		<div class="content">
+			<ul id="paperList">
+				
+				<li>
+					<p class="fl">当前状态</p>
+					<p class="fr">会签</p>
+				</li>
+				<li>
+					<p class="fl">拟稿人</p>
+					<p class="fr">李青</p>
+				</li>
+				<li>
+					<p class="fl">拟稿时间</p>
+					<p class="fr">2017-04-05 14:23:54</p>
+				</li>
+				<li>
+					<p class="fl">部门负责人</p>
+					<p class="fr">李青</p>
+				</li>
+				<li>
+					<p class="fl">到达时间</p>
+					<p class="fr">2017-04-05 14:23:54</p>
+				</li>
+				<li>
+					<p class="fl">机要编号时间</p>
+					<p class="fr">2017-04-06</p>
+				</li>
+				<li>
+					<p class="fl">机要编号时间</p>
+					<p class="fr">2017-04-06</p>
+				</li>
+				<li>
+					<p class="fl">拟稿时间</p>
+					<p class="fr">2017-04-05 14:23:54</p>
+				</li>
+				<li>
+					<p class="fl">部门负责人</p>
+					<p class="fr">李青</p>
+				</li>
+				<li>
+					<p class="fl">到达时间</p>
+					<p class="fr">2017-04-05 14:23:54</p>
+				</li>
+			</ul>
+		</div>
+		
+		
+	</div>
+
+	<!-- 意见弹出框 -->
+	<div id="fade" class="black_overlay"> 
+		<div id="light" class="white_content"> 
+			<form id="argsform" class="argsform">
+				<ul id="argsul" class="argsul">
+					<!--<li class="argli">
+						<p>领导批示</p>
+						<textarea class="view" name=""+name+"" placeholder="请输入意见">
+						</textarea>
+					</li>
+
+					<li class="timeli">
+						<p>批示时间</p>
+						<input class="pick-date" type="date" name="">
+					</li>
+					<li class="dealerli">
+						<p>办理人</p>
+						<div>
+							<span>请选择办理人</span>
+							<img src="../img/next.png">
+						</div>
+					</li>-->
+				</ul>
+			</form>
+			<div class="argsbtn">
+				<button class="confirm" id="yes" >确定</button>
+				<button class="cancel"  id="no" >取消</button>
+			</div>
+		</div> 
+	</div>
+
+	<!-- 附件页签 -->
+	<div class="attachments">
+		<div class="files" style="padding-left: 0">
+			<ul class="fileList" id="fileList">
+				<div class="fileType">正文</div>
+				<li><img src="../img/doc.png" width="36px" height="36px">移动审批APP</li>
+				<li><img src="../img/pdf.png" width="36px" height="36px">流程图</li>
+				<div class="fileType">附件</div>
+				<li><img src="../img/ppt.png" width="36px" height="36px">公司规章制度</li>
+				<li><img src="../img/rar.png" width="36px" height="36px">资产审核办法</li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-- 流转明细 -->
+	<div class="details">
+		<ul id="detailsList">
+			<li class="mingxi-list">
+				<div class="mingxi-title">会签</div>
+					<div class="mingxi-content">
+						<div class="mingxi-content-left">
+							<div class="mingxi-content-img">
+								<img src="../img/tx1.png"/>
+							</div>
+						</div>
+						<div class="mingxi-content-middle">
+							<p class="mingxi-content-head">李青</p>
+							<p class="mingxi-content-time">任务到达时间：17-4-5 13:22</p>
+							<p class="mingxi-content-time">任务到达时间：17-4-5 13:22</p>
+						</div>
+						<div class="mingxi-content-right">
+						<div class="mingxi-content-status unreceive">已完成</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<!--<script id="paperScript" type="text/x-dot-template">
+	    {{ for (var i=0;i<it.length;i++ ){ }}
+	    	<li>
+				<p class="fl">{{=it[i].name}}</p>
+				<p class="fr">{{=it[i].value}}</p>
+			</li>
+	 	{{ } }}
+	</script>
+	<script id="attachScript" type="text/x-dot-template">
+	    {{ for (var i=0;i<it.length;i++ ){ }}
+	    	<li onclick="download({{=it[i].nativeParam}})">
+	    		<img src={{=it[i].imgSrc}} width="36px" height="36px" >
+	    		{{=it[i].title}}
+	    	</li>
+	 	{{ } }}
+	</script>
+	<script id="detailsScript" type="text/x-dot-template">
+	    {{ for (var i=0;i<it.length;i++ ){ }}
+	    	<li class="mingxi-list">
+				<div class="mingxi-title">{{=it[i].stepname}}</div>
+					<div class="mingxi-content">
+						<div class="mingxi-content-left">
+							<div class="mingxi-content-img">
+								<img src="../img/tx1.png"/>
+							</div>
+						</div>
+						<div class="mingxi-content-middle">
+							<p class="mingxi-content-head">{{=it[i].username}}</p>
+							<p class="mingxi-content-time">
+								任务到达时间：{{=it[i].arriveTime}}
+							</p>
+							{{? it[i].status!="未接收"}}
+								<p class="mingxi-content-time">
+									任务到达时间：{{=it[i].acceptTime}}
+								</p>
+							{{ } }}
+						</div>
+						<div class="mingxi-content-right">
+						{{? it[i].status=="办理中"}}
+							<div class="mingxi-content-status handing">{{=it[i].status}}</div>
+						{{?? it[i].status=="未接收"}}
+						<div class="mingxi-content-status unreceive">{{=it[i].status}}</div>
+						{{?? it[i].status=="已完成"}}
+							<div class='mingxi-content-finished'>
+								<img src='../img/finished.png'/>
+							</div>
+						{{ } }}
+					</div>
+				</div>
+			</li>
+	 	{{ } }}
+	</script>-->
+</body>
+</html>
